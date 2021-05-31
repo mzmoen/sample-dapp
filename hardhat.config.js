@@ -14,6 +14,10 @@ module.exports = {
   networks: {
     hardhat: {
       chainId: 1337
+    },
+    kovan: {
+      url: "https://kovan.infura.io/v3/04b67d1c5d1449548f9c5b956c498177",
+      accounts: [`0x${process.env.REACT_APP_WALLET_ADDRESS}`]
     }
   }
 };
