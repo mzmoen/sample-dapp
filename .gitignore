@@ -27,4 +27,7 @@ node_modules
 #Hardhat files
 cache
 artifacts
+
+#Additional
 /.env
+/hardhat.config.js
